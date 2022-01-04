@@ -1,6 +1,19 @@
 <template>
   <div class="">
-    <nav class="h-16 bg-gradient-to-r from-blue-500 to-purple-600 flex items-center px-5 w-full lg:fixed relative z-10">
+    <nav
+      class="
+        h-16
+        bg-gradient-to-r
+        from-blue-500
+        to-purple-600
+        flex
+        items-center
+        px-5
+        w-full
+        relative
+        z-10
+      "
+    >
       <div class="flex gap-2 items-center text-white">
         <i class="fas fa-dragon text-2xl"></i>
         <h3 class="">Dragon Dev</h3>
@@ -16,7 +29,7 @@
         <li class="text-white hover:bg-blue-400 hover:rounded-lg p-2">
           <Link href="/contact"> Contact </Link>
         </li>
-         <li class="text-white hover:bg-blue-400 hover:rounded-lg p-2">
+        <li class="text-white hover:bg-blue-400 hover:rounded-lg p-2">
           <Link href="/contact"> My Account </Link>
         </li>
       </ul>
@@ -28,21 +41,22 @@
     <div
       id="menu-responsive"
       class="
-        z-20
+        top-0
+        z-30
         fixed
         h-screen
         bg-gradient-to-b
-        from-blue-500 
+        from-blue-500
         to-purple-600
-        w-5/12
+        w-3/12
         -left-full
         transition-all
         duration-500
         sidebar-mobile
       "
     >
-      <div class="flex flex-col items-center pt-5 gap-3 text-white">
-        <i class="fas fa-dragon text-2xl"></i>
+      <div class="flex flex-col items-center pt-5 text-white">
+        <i class="fas fa-dragon text-xl"></i>
         <h3 class="">Dragon Dev</h3>
       </div>
       <hr />
